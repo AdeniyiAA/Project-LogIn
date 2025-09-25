@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00523f;
+    height: 100vh;
+}
+
+.formside{
+    /* border: red 2px solid; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.formside img{
+    margin-bottom: 20px;
+    width: 15rem;
+}
+.formside h1{
+    color: white;
+    font-family: "Risque", serif;
+    font-weight: 300;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* border: red solid 2px; */
+    width: 20rem;
+}
+.forminput{
+    border-bottom:  #ffc42a solid 2px;
+    margin-block: 10px;
+    /* margin-bottom: 20px; */
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.forminput> input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+form a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form button{
+    color: #00523f;
+    background-color: #ffc42a;
+    height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.social{
+    /* border: solid red 2px; */
+    margin-top: 10rem;
+}
+
+.social a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Risque", serif;
+    font-size: 30px;
+}
+.social a img{
+    width: 20%;
+}
+
+/* form{
+    border: red solid 2px;
+} */
+
+.formimgside{
+    position: relative;
+    /* border: white 2px solid; */
+    width: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formimgside > img:first-child{
+    width: 9rem;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+}
+
+.formimgside > img:nth-child(2){
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.formimgside img{
+    width: 30%;
+}
+.yellow{
+    /* border: 2px red solid; */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.yellow img{
+    width: 100%;
+    height: 100%;
+}
