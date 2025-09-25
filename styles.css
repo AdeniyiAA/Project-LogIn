@@ -86,13 +86,15 @@ form button{
 }
 
 .social a{
+    /* border: red solid 2px; */
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     text-decoration: none;
     color: white;
     font-family: "Risque", serif;
     font-size: 30px;
 }
+
 .social a img{
     width: 20%;
 }
